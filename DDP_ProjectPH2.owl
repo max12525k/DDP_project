@@ -1,0 +1,1267 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_AddendumRadius -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_AddendumRadius">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_BHardness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_BHardness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_BSGometryFactor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_BSGometryFactor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_DiametralPitch -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_DiametralPitch">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_ElasticCoefficient -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_ElasticCoefficient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_FaceWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_FaceWidth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_HeatTreatment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_HeatTreatment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_LewisFormFactor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_LewisFormFactor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_Material -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_Material">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_NoofTeeth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_NoofTeeth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_PressureAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_PressureAngle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_Reliability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_Reliability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_RimThickness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_RimThickness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_TeethType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_TeethType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_ToothHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_ToothHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear_Type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_EnduranceLimit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_EnduranceLimit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_EnduranceReliaiblity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_EnduranceReliaiblity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_Length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_Length">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_ManufactoringProcess -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_ManufactoringProcess">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_Material -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_Material">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_MeanDiameter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_MeanDiameter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_StdYsratio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_StdYsratio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_Type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_UltimateTensileStrength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_UltimateTensileStrength">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_YieldStrength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft_YieldStrength">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Component"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_Length>
+        <Shaft_ManufactoringProcess>Hotrolled</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.999</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_Length>
+        <Shaft_ManufactoringProcess>Hotrolled</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.12</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.9</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.13</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.999</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.17</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.14</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</Shaft_Length>
+        <Shaft_ManufactoringProcess>Ground</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">195</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.18</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.999</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.19</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.21</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.9</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_Length>
+        <Shaft_ManufactoringProcess>Ground</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>Copper</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">187.5</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</Shaft_Length>
+        <Shaft_ManufactoringProcess>Forming</Shaft_ManufactoringProcess>
+        <Shaft_Material>PE100</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.17</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</Shaft_StdYsratio>
+        <Shaft_Type>Spline</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</Shaft_Length>
+        <Shaft_ManufactoringProcess>Hotrolled</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Shaft_StdYsratio>
+        <Shaft_Type>Taper</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</Shaft_Length>
+        <Shaft_ManufactoringProcess>Hotrolled</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.13</Shaft_StdYsratio>
+        <Shaft_Type>Step</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</Shaft_Length>
+        <Shaft_ManufactoringProcess>Hotrolled</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.9</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</Shaft_Length>
+        <Shaft_ManufactoringProcess>Colddrawn</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1050</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_Length>
+        <Shaft_ManufactoringProcess>Machined</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_Length>
+        <Shaft_ManufactoringProcess>Hotrolled</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.999</Shaft_EnduranceReliaiblity>
+        <Shaft_EnduranceReliaiblity>Hotrolled</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_Length>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_Length>
+        <Shaft_ManufactoringProcess>Machined</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_Length>
+        <Shaft_ManufactoringProcess>Ground</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99.999</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_Length>
+        <Shaft_ManufactoringProcess>Ground</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#NormalShaft9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Shaft"/>
+        <Shaft_EnduranceLimit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</Shaft_EnduranceLimit>
+        <Shaft_EnduranceReliaiblity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</Shaft_EnduranceReliaiblity>
+        <Shaft_Length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_Length>
+        <Shaft_ManufactoringProcess>Hotrolled</Shaft_ManufactoringProcess>
+        <Shaft_Material>AISI1020</Shaft_Material>
+        <Shaft_MeanDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</Shaft_MeanDiameter>
+        <Shaft_StdYsratio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Shaft_StdYsratio>
+        <Shaft_Type>Normal</Shaft_Type>
+        <Shaft_UltimateTensileStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Shaft_UltimateTensileStrength>
+        <Shaft_YieldStrength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</Shaft_YieldStrength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">433</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>AISI4140</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.99</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.328</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.328</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>AISI4140</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.99</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.328</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">433</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.99</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.328</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.328</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.99</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.328</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.99</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.999</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.99</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.29</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.07</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.999</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.29</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.08</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.27</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.29</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.95</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.22</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.14</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.05</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.337</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.98</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.23</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.12</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.409</Gear_LewisFormFactor>
+        <Gear_Material>2.5%chrome</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.995</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.19</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.22</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>AISI4140</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.999</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.328</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>AISI1040</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.999</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420</Gear_BHardness>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.35</Gear_DiametralPitch>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.353</Gear_LewisFormFactor>
+        <Gear_Material>AISI4140</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.29</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.07</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</Gear_LewisFormFactor>
+        <Gear_Material>AISI4140</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.99</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.29</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.08</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</Gear_LewisFormFactor>
+        <Gear_Material>AISI4140</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">480</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.29</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.25</Gear_LewisFormFactor>
+        <Gear_Material>AISI4140</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.999</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">470</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.14</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.05</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitirded</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.337</Gear_LewisFormFactor>
+        <Gear_Material>AISI4140</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.99</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.12</Gear_RimThickness>
+        <Gear_TeethType>Uncrowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.08</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#SpurGear9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2018/8/untitled-ontology-5#Gear"/>
+        <Gear_AddendumRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.12</Gear_AddendumRadius>
+        <Gear_BHardness rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</Gear_BHardness>
+        <Gear_BSGometryFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</Gear_BSGometryFactor>
+        <Gear_DiametralPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</Gear_DiametralPitch>
+        <Gear_ElasticCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</Gear_ElasticCoefficient>
+        <Gear_FaceWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Gear_FaceWidth>
+        <Gear_HeatTreatment>Nitrided</Gear_HeatTreatment>
+        <Gear_LewisFormFactor rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.409</Gear_LewisFormFactor>
+        <Gear_Material>AISI1040</Gear_Material>
+        <Gear_NoofTeeth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Gear_NoofTeeth>
+        <Gear_PressureAngle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</Gear_PressureAngle>
+        <Gear_Reliability rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.999</Gear_Reliability>
+        <Gear_RimThickness rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</Gear_RimThickness>
+        <Gear_TeethType>Crowned</Gear_TeethType>
+        <Gear_ToothHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</Gear_ToothHeight>
+        <Gear_Type>Spur</Gear_Type>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

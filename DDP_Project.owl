@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#"
+     xml:base="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#isParallelwith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#isParallelwith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#isPartof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#isPartof">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Machine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#isSerieswith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#isSerieswith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Allowable_Tension -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Allowable_Tension">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Axial_Force -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Axial_Force">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bigger_Dia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bigger_Dia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Centre_Distsnce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Centre_Distsnce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#CoefficientOfFriction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#CoefficientOfFriction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Design_Power -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Design_Power">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Dimension -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Dimension">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Dynamic_Load_Rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Dynamic_Load_Rating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Face_Width -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Face_Width">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Fatigue_Load_Limit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Fatigue_Load_Limit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Helix_Anl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Helix_Anl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Hub_Dia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Hub_Dia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Hub_Width -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Hub_Width">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Kf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Kf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Kfs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Kfs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Kr -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Kr">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Lead_Anl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Lead_Anl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Limiting_Speed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Limiting_Speed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Ma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Ma">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#MassOfBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#MassOfBearing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#MassOfGear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#MassOfGear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#MassOfPower_Screw -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#MassOfPower_Screw">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#MassofShaft -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#MassofShaft">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Material_Specification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Material_Specification">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Mean_Dia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Mean_Dia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Min_Pully_Dia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Min_Pully_Dia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Mm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Mm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Module -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Module">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#NumberOfTeath -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#NumberOfTeath">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Outside_DIa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Outside_DIa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Pitch -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Pitch">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Pitch_Dia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Pitch_Dia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Radial_Force -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Radial_Force">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Safety_Factor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Safety_Factor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#SizeOfBelt -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#SizeOfBelt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Smaller_Dia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Smaller_Dia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Specific_Weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Specific_Weight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Static_Load_Rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Static_Load_Rating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Ta -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Ta">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Tm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Tm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#TypeOfBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#TypeOfBearing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#TypeOfGear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#TypeOfGear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#TypeOfPower_Screw -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#TypeOfPower_Screw">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Bearing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Gear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Machine">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Power_Screw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Shaft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Flat_Belt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Flat_Belt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Belt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Motor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Motor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Machine"/>
+        <isPartof rdf:resource="http://www.semanticweb.org/max/ontologies/2018/2/DDP-ontology-19#Motor"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
